@@ -1,0 +1,288 @@
+/* Color palette
+------------------------------------
+#FFF9F8 - snow //background
+#383A4E - charcoal //text
+#AF708B - turkish rose //link, current
+#303633 - jet 
+
+#DB93B0 - thulian pink 
+#B8336A - rich maroon
+#626CD6 - slate blue
+#2C6A7F - dark green
+#EADECE - almond
+#85ADBF - pewter blue
+#E3AE91 - tumbleweed
+#FDEBD3 - moccasin
+
+------------------------------------*/
+
+/* Document styles
+------------------------------------*/
+html {
+	box-sizing: border-box;
+}
+h1 {
+	font-family: 'Playfair Display', serif;
+	font-weight: bolder;
+	font-size: 64px;
+	line-height: 72px;
+	letter-spacing: 0.1em;
+	font-feature-settings: 'pnum' on, 'lnum' on; 
+}
+h2 {
+	font-family: 'Playfair Display', serif;
+	font-size: 32px;
+	line-height: 48px;
+	letter-spacing: 0.1em;
+	font-feature-settings: 'pnum' on, 'lnum' on;
+}
+h3 {
+	font-family: 'Poppins', sans-serif;
+	font-size: 32px;
+	line-height: 51px;
+	letter-spacing: 0.1em;
+}
+body {
+	background: #FFF9F8;
+    margin: 0;
+    padding: 0;
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	color: #383A4E;
+	line-height: 31px;
+	letter-spacing: 0.1em;
+}
+
+a:link {
+    color: #DB93B0;
+	text-decoration: none;
+}
+a:visited {
+    color: #DB93B0;
+	text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+/* Navigation
+------------------------------------*/
+
+.header-nav-wrap {
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: .25rem;
+    position: absolute;
+    top: 9px;
+    right: 50px;
+}
+
+.header-nav {
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    height: 72px;
+}
+
+.header-nav li {
+    display: inline-block;
+    padding-left: 0;
+    margin-right: 2rem;
+}
+
+.header-nav li a {
+    display: block;
+    line-height: 72px;
+    color: #383A4E;
+}
+
+.header-nav li.current a {
+    font-family: "Poppins", sans-serif;
+	font-weight: bold;
+    color: #AF708B;
+}
+
+/* Header
+------------------------------------*/
+
+.header-logo {
+    display: inline-block;
+    position: absolute;
+    margin: 12px;
+    padding: 0;
+    left: 50px;
+	border-radius: 10px;
+}
+
+.header-logo a {
+    display: block;
+    margin: 9px 0 0 0;
+    padding: 0;
+    outline: 0;
+    border: none;
+    width: 80px;
+    transition: all 0.3s ease-in-out;
+}
+.header {
+    width: 100%;
+    height: 72px;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+}
+
+
+/* Home
+------------------------------------*/
+
+.homepage-text {
+	max-width: 1000px;
+	height: 50%;
+	justify-content: center;
+	padding: 25px;
+}
+
+.home-flex-container{
+	margin-top: 10%;
+	margin-bottom: 10%;
+	padding: 5%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: auto;
+	text-align: left
+}
+
+.Sara {
+	max-width: 250px;
+  	height: auto;
+	justify-content: center;
+	margin-right: 60px; 
+	border-radius: 30px
+}
+	
+/* About
+------------------------------------*/
+
+.about {
+    background-color: #383A4E;
+	color: #FFF9F8;
+	margin: auto;
+	padding: 10% 20% 10% 20%;
+	justify-content: center;
+	position: relative;
+}	
+
+/* Resume
+------------------------------------*/
+
+.resume {
+	max-width: 1200px;
+	width: 70%;
+	margin:0 auto 0 auto;
+	padding: 0 5% 0 5%;
+	justify-content: center;
+	position: relative;
+	text-align: left;
+}
+
+.resume-flex-container{
+	margin: auto;
+	padding: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: auto;
+	text-align: left
+}
+
+.resume-text {
+	font-size: 16px;
+    text-align: left;
+	width: 100%;
+}
+
+.resume-block {
+    position: relative;
+    min-height: 250px;
+	margin-bottom: 10%;
+}
+
+.resume-item {
+    background: #383A4E;
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    margin-left: -20%;
+    position: absolute;
+    left: 20px;
+    top: 32px;
+}
+
+.resume-header .resume-timeframe {
+    font-family: "Poppins", sans-serif;
+	font-size: 14px;
+    line-height: 1.5;
+	margin: auto;
+    text-transform: uppercase;
+    letter-spacing: .15rem;
+    color: #AF708B; 
+}
+
+.resume-title {
+    margin: 10%;
+	text-align: center
+}
+
+.resume-header h3 {
+    line-height: 1.25;
+    margin: 0
+}
+
+.resume-header h5 {
+    margin: 0;
+}
+
+.resume .left {
+	width: 50%;
+    padding-right: 10%;
+}
+
+.resume .right {
+	width: 50%;
+    padding-left: 10%;
+}
+
+/* Portfolio
+------------------------------------*/
+
+.portfolio-flex-grid {
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	margin: auto;
+}
+
+.bespoke {
+    flex: 1;
+	width: 20%;
+}
+
+.processing {
+	flex: 1;
+	width: auto;
+}
+
+.research {
+	flex: 1;
+	width: 20%;
+}
