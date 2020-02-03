@@ -5,15 +5,6 @@
 #AF708B - turkish rose //link, current
 #303633 - jet 
 
-#DB93B0 - thulian pink 
-#B8336A - rich maroon
-#626CD6 - slate blue
-#2C6A7F - dark green
-#EADECE - almond
-#85ADBF - pewter blue
-#E3AE91 - tumbleweed
-#FDEBD3 - moccasin
-
 ------------------------------------*/
 
 /* Document styles
@@ -381,10 +372,13 @@ a:hover {
 .col1 {
 	width: 10%;
 	padding-right: 5%;
+	align-content: left;
 }
 .col2 {
 	width: 50%;
 	padding-right: 5%;
+	padding-top: 0.05%;
+	align-content: left;
 }
 .col3 {
 	width: 10%;
@@ -393,7 +387,16 @@ a:hover {
 .col4 {
 	width: 50%;
 	padding-right: 5%;
-	align-content: flex-end;
+	padding-top: 0.05%;
+}
+.col5 {
+	width: 8%;
+	padding-right: 5%;
+}
+.col6 {
+	width: 90%;
+	padding-right: 5%;
+	padding-top: 0.05%;
 }
 .case-study h3 {
 	margin-left: 10%;
@@ -402,7 +405,6 @@ a:hover {
 	display: flex;
 	flex-direction: row;
 	margin: auto;
-	padding: 5%;
 	justify-content: center;
 	width: 80%;
 	text-align: left
@@ -412,14 +414,17 @@ a:hover {
 	height: 50%;
 	justify-content: center;
 	padding: 25px;
-	margin-top: 5%;
 }
 .project-text h3 {
 	margin-left: auto;
 }
 .project-big {
-	
 	object-fit: contain;
+}
+.cat-counter {
+	max-width: 300px;
+	justify-content: center;
+	margin-top: 0;
 }
 
 
