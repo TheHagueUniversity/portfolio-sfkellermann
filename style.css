@@ -335,6 +335,8 @@ a:hover {
 .image-big{
   	display: block;
   	width: 33%;
+	object-fit: contain;
+	margin-top: 10%;
 }
 .content-wrap {
 	max-width: 800px;
@@ -352,8 +354,8 @@ a:hover {
 .top-flex-container {
 	display: flex;
 	flex-direction: row;
-	margin: 5% auto 5% auto;
-	padding: 5%;
+	margin: auto;
+
 	justify-content: center;
 	width: 80%;
 	text-align: left
@@ -363,6 +365,61 @@ a:hover {
 	height: 50%;
 	justify-content: center;
 	padding: 25px;
-	margin-top: 10%;
+	margin-top: 5%;
 }
+.top-text h2 {
+	font-size: 48px;
+	margin-top: 30%;
+}
+.case-study-flex-grid {
+	display: flex;
+	justify-content: center;
+	width: 80%;
+	max-width: 1200px;
+	margin: auto;
+}
+.col1 {
+	width: 10%;
+	padding-right: 5%;
+}
+.col2 {
+	width: 50%;
+	padding-right: 5%;
+}
+.col3 {
+	width: 10%;
+	padding-right: 5%;
+}
+.col4 {
+	width: 50%;
+	padding-right: 5%;
+	align-content: flex-end;
+}
+.case-study h3 {
+	margin-left: 10%;
+}
+.project-flex-container {
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+	padding: 5%;
+	justify-content: center;
+	width: 80%;
+	text-align: left
+}
+.project-text {
+	max-width: 1000px;
+	height: 50%;
+	justify-content: center;
+	padding: 25px;
+	margin-top: 5%;
+}
+.project-text h3 {
+	margin-left: auto;
+}
+.project-big {
+	
+	object-fit: contain;
+}
+
 
