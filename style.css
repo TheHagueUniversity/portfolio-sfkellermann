@@ -42,6 +42,7 @@ h3 {
 	line-height: 51px;
 	letter-spacing: 0.1em;
 }
+
 body {
 	background: #FFF9F8;
     margin: 0;
@@ -177,18 +178,24 @@ a:hover {
     background-color: #383A4E;
 	color: #FFF9F8;
 	margin: auto;
-	padding: 10% 20% 10% 20%;
+	padding: 5% 20% 10% 20%;
 	justify-content: center;
 	position: relative;
-}	
+}
+
+.about-title {
+    margin: 0;
+	text-transform: uppercase;
+	text-align: center
+}
 
 /* Resume
 ------------------------------------*/
 
 .resume {
 	max-width: 1200px;
-	width: 70%;
-	margin:0 auto 0 auto;
+	width: auto;
+	margin:0 auto 5% auto;
 	padding: 0 5% 0 5%;
 	justify-content: center;
 	position: relative;
@@ -235,17 +242,20 @@ a:hover {
 	margin: auto;
     text-transform: uppercase;
     letter-spacing: .15rem;
-    color: #AF708B; 
+     
 }
 
 .resume-title {
-    margin: 10%;
+    margin-top: 10%;
+	color: #AF708B;
+	text-transform: uppercase;
 	text-align: center
 }
 
-.resume-header h3 {
+.resume-header h2 {
+	color: #AF708B;
     line-height: 1.25;
-    margin: 0
+    margin-bottom: 5%;
 }
 
 .resume-header h5 {
