@@ -23,7 +23,7 @@ html {
 }
 h1 {
 	font-family: 'Playfair Display', serif;
-	font-weight: bolder;
+
 	font-size: 64px;
 	line-height: 72px;
 	letter-spacing: 0.1em;
@@ -59,23 +59,20 @@ body {
 	line-height: 31px;
 	letter-spacing: 0.1em;
 }
-
 a:link {
-    color: #DB93B0;
+    color: #AF708B;
 	text-decoration: none;
 }
 a:visited {
-    color: #DB93B0;
+    color: #AF708B;
 	text-decoration: none;
 }
 a:hover {
-    text-decoration: none;
+    text-decoration: bold;
 }
-
 .text-left {
     text-align: left;
 }
-
 .text-right {
     text-align: right;
 }
@@ -92,26 +89,22 @@ a:hover {
     top: 9px;
     right: 50px;
 }
-
 .header-nav {
     display: inline-block;
     list-style: none;
     margin: 0;
     height: 72px;
 }
-
 .header-nav li {
     display: inline-block;
     padding-left: 0;
     margin-right: 2rem;
 }
-
 .header-nav li a {
     display: block;
     line-height: 72px;
     color: #383A4E;
 }
-
 .header-nav li.current a {
     font-family: "Poppins", sans-serif;
 	font-weight: bold;
@@ -120,7 +113,6 @@ a:hover {
 
 /* Header
 ------------------------------------*/
-
 .header-logo {
     display: inline-block;
     position: absolute;
@@ -129,7 +121,6 @@ a:hover {
     left: 50px;
 	border-radius: 10px;
 }
-
 .header-logo a {
     display: block;
     margin: 9px 0 0 0;
@@ -137,7 +128,6 @@ a:hover {
     outline: 0;
     border: none;
     width: 80px;
-    transition: all 0.3s ease-in-out;
 }
 .header {
     width: 100%;
@@ -153,14 +143,12 @@ a:hover {
 .home h2 {
 	color: #AF708B;
 }
-
 .homepage-text {
 	max-width: 1000px;
 	height: 50%;
 	justify-content: center;
 	padding: 25px;
 }
-
 .home-flex-container{
 	margin-top: 10%;
 	margin-bottom: 10%;
@@ -171,7 +159,6 @@ a:hover {
 	width: auto;
 	text-align: left
 }
-
 .Sara {
 	max-width: 250px;
   	height: auto;
@@ -295,14 +282,12 @@ a:hover {
 	position: relative;
 	text-align: left;
 }
-
 .portfolio-title {
     margin-bottom: 5%;
 	color: #FFF9F8;
 	text-transform: uppercase;
 	text-align: center
 }
-
 .portfolio h2 {
     margin: 5% 0 5% 11%;
 	color: #AF708B;
@@ -319,23 +304,65 @@ a:hover {
 	max-width: 1200px;
 	margin: auto;
 }
-
 .bespoke {
     flex: 1;
 	max-width: 250px;
 }
-
 .processing {
 	flex: 1;
 	max-width: 250px;
 }
-
 .research {
 	flex: 1;
 	max-width: 250px;
 }
-
 .vid {
 	flex:1;
 	max-width: 250px;
 }
+
+/* Portfolio Details
+------------------------------------*/
+.portfolio-item {
+	overflow: hidden;
+}
+.portfolio-item h3 {
+	margin-top: 0;
+}
+.portfolio-item a {
+	color: #383A4E; /* charcoal */
+}
+.image-big{
+  	display: block;
+  	width: 33%;
+}
+.content-wrap {
+	max-width: 800px;
+	width: 85%;
+	margin: 0 auto;
+	padding: 60px 0;
+}
+.divider > section {
+  	border-bottom: 1px dashed #343434;
+  	padding: 25px 0;
+}
+.divider > section:last-of-type {
+  	border-bottom: none;
+}
+.top-flex-container {
+	display: flex;
+	flex-direction: row;
+	margin: 5% auto 5% auto;
+	padding: 5%;
+	justify-content: center;
+	width: 80%;
+	text-align: left
+}
+.top-text {
+	max-width: 1000px;
+	height: 50%;
+	justify-content: center;
+	padding: 25px;
+	margin-top: 10%;
+}
+
